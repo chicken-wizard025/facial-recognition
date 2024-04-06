@@ -1,4 +1,4 @@
-//https://teachablemachine.withgoogle.com/models/-nwDsHT-t
+//https://teachablemachine.withgoogle.com/models/oR27bWdOH
 Webcam.set({
 width:350,
 height:300,
@@ -25,7 +25,7 @@ function take_snapshot()
 }
 
 console.log('ml5 version:', ml5.version);
-classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/-nwDsHT-t/model.json',modelLoaded);
+classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/oR27bWdOH/model.json',modelLoaded);
 function modelLoaded() {
     console.log('Model Loaded!');
 }
